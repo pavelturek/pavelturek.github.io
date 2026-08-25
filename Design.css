@@ -3,4 +3,10 @@ a:visited {color: chocolate;}
 a:hover {color: fuchsia;}
 a:active {color: black;}
 
-header {background-color: aqua;}
+a {text-decoration:none}
+
+header {background-color: aqua;
+        height: 100px;
+        text-align:right;
+        padding: 30px;
+        font-size: 20px;}
