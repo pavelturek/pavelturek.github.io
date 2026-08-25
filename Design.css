@@ -1,21 +1,37 @@
-a:link {color: chocolate;}
-a:visited {color: chocolate;}
+a {color: chocolate;}
 a:hover {color: fuchsia;}
-a:active {color: black;}
-
 a {text-decoration:none;}
 
+body {max-width: 1500px;
+      min-width: 900px;
+      margin: auto;}
+
 header {background-color:beige;
-        height: 70px;
+        height: 100px;
         text-align:right;
-        padding: 30px;
-        margin-left: 100px;
-        margin-right: 100px;
-        font-size: 30px;}
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        font-size: 20px;
+        margin: 10px;}
 
-footer {height: 70px;
-        text-align:center;
-        padding: 30px;
-        font-size: 20px;}
+footer {height: 80px;
+        padding: 0px;
+        font-size: 20px;
+        clear: both;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+        border-top: 1px black solid;
+        padding-top: 20px;
+        }
 
-.pages {margin:10px}
+.main {font-size: 18px;
+        margin:10px;}
+
+.pages {margin: 10px;}
+
+.bigpic {float: right;
+        margin: 15px;}
+
