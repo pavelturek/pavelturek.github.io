@@ -2,8 +2,8 @@ a {color: chocolate;}
 a:hover {color: fuchsia;}
 a {text-decoration:none;}
 
-body {max-width: 1500px;
-      min-width: 900px;
+body {max-width: 1000px;
+      min-width: 750px;
       margin: auto;}
 
 header {background-color:beige;
@@ -30,8 +30,12 @@ footer {height: 80px;
 .main {font-size: 18px;
         margin:10px;}
 
+.talks {font-size: 14px;
+        margin:10px;}
+
 .pages {margin: 10px;}
 
 .bigpic {float: right;
         margin: 15px;}
 
+.sublist {list-style-type: circle;}
