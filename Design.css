@@ -39,6 +39,7 @@ footer {height: 80px;
         margin: 15px;}
 
 .smallpic {float: left;
-        margin: 5px;}
+        margin: 5px;
+        transform: translate(0, -100%)}
 
 .sublist {list-style-type: circle;}
